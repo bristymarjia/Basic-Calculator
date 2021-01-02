@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto One";
+    font-weight: 600;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #dee0e7;
+    transition: .2s all ease-in;
+}
+
+.heading {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 20px;
+
+}
+
+
+.center {
+    box-shadow: 20px 20px 25px #aaaaaa;
+    width: 450px;
+    background-color: #334;
+    border-radius: 20px;
+
+}
+
+input[type="text"] {
+    height: 60px;
+    width: 350px;
+    /* margin-top: 10px; */
+    margin-bottom: 12px;
+
+    border-radius: 10px;
+    border: 1px solid #c2ccd1;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 20px;
+    background: linear-gradient(#d1dce0, #dfe6e9);
+}
+
+
+
+.calc.buttons {
+    width: 400px;
+    /* margin: 10px 25px 0 25px; */
+    padding: 10px 0;
+}
+
+input[type="button"],
+button {
+    width: 70px;
+    height: 65px;
+    margin: 5px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 55px;
+    border-radius: 3px;
+    border: 1px solid #d9d9d9;
+    background: linear-gradient(#d9d9d9, #bfbfbf);
+}
+
+button:hover {
+    transition: .5s;
+    background: linear-gradient(#f4eeed, #e6e6e6);
+}
+
+button:active {
+    transform: scale(0.5);
+}
+
+#clear {
+    background: rgb(223, 65, 65);
+    border: 1px solid #cc0000;
+    color: white;
+}
+
+
+#equal {
+    width: 238px;
+    height: 65px;
+    margin: 5px 5px 35px 5px;
+    font-size: 30px;
+    border: 1px solid #dbcfcf;
+    background: linear-gradient(#d9d9d9, #bfbfbf);
+    color: rgb(17, 15, 15);
+}
+
+#clear:hover,
+#equal:hover {
+    opacity: 0.8;
+}
+
+#del {
+    width: 70px;
+    height: 65px;
+    margin: 5px 5px 35px 5px;
+    font-weight: bold;
+    background: rgb(223, 65, 65);
+    border: 1px solid #cc0000;
+    color: white;
+}
